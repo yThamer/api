@@ -1,10 +1,7 @@
 {
-    "message": "This is the exact data being sent from your config.php. Check these values carefully!",
-    "data_sent_to_discord": {
-        "client_id": "123456789...",
-        "client_secret": "ABCDEFG...",
-        "grant_type": "authorization_code",
-        "code": "...",
-        "redirect_uri": "https://ytm.gtc.tc/callback.php"
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.6.0"
     }
+  }
 }
